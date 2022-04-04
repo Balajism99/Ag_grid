@@ -1,0 +1,509 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.head{
+  text-align: center;
+}
+body{
+  height: 100%;
+}
+.tableContainer{
+  border-radius:15 ;
+  margin: 8px 8px ;
+  font-weight: bold;
+  max-width: 1520px;
+  page-break-after: 200px;
+  padding: 5px;
+  justify-content: center;
+  page-break-before: auto;
+}
+.column{
+  background-color: rgb(98, 181, 230);
+  font-size: 15pt;
+  text-align: center;
+  padding: 5px;
+}
+.columns{
+  font-size: 15pt;
+  text-align: center;
+}
+.tablebody{
+  page-break-after: auto;
+}
+.data{
+  font-weight: bold;
+  color: black;
+  font-size: 12pt;
+}
+.btn-primary{
+  padding: 7px;
+  border-radius: 4px;
+  background-color: rgb(77, 179, 226);
+  color: white ;
+  border: none;
+  font-size: 12pt;
+  margin-left: 25px;
+  width: 8%;
+  margin-top: 10px;
+  cursor: pointer;
+  
+ height: 50px;
+ margin-bottom: 15px;
+
+}
+.btn-primary1{
+  padding: 7px;
+  border-radius: 4px;
+  background-color: rgb(77, 179, 226);
+  color: white ;
+  border: none;
+  font-size: 12pt;
+  width: 8%;
+  margin-top: 10px;
+  cursor: pointer;
+  
+ height: 50px;
+ margin-bottom: 15px;
+
+}
+.popuup{
+  top: 0;
+  display: none;
+  left: 0;
+  background-color: rgba(0,0,0,0.2);
+  display: flex;
+ max-width: 2200px;
+margin-left: 50px; 
+}
+.popup{
+  position: fixed;
+  top: 0;
+  background-color: rgba(0,0,0,0.2);
+  left: 0;
+  display: flex;
+ max-width: 2200px;
+margin-left: 50px; 
+}
+.not{
+  background-color: rgba(0,0,0,0.2);
+
+}
+.pop{
+  page-break-inside: avoid;
+}
+.split{
+  position: relative;
+}
+.main{
+  display: none;
+}
+.tablerow{
+  page-break-inside: avoid; 
+           page-break-after: auto;
+}
+
+.pdf {
+  width: 1680px;
+}
+
+.down{
+  margin-bottom: 1050px;
+}
+.pops{
+  height: 6600px;
+}
+.pop{
+  margin-left: 50px;
+}
+.dropbtn {
+  border-radius: 4px;
+  background-color: rgb(77, 179, 226);
+  color: white ;
+  padding: 16px;
+  font-size: 16px;
+  margin-left: 25px;
+  border: none;
+  cursor: pointer;
+  margin-top: 25px;
+
+}
+.option{
+  margin-left: 20px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-right {
+  position: relative;
+  display: inline-block;
+  margin-left: 100px;
+}
+.dropdown-right-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0,0,0,0.2);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0,0,0,0.2);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.excel{
+  border: none;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.frame{
+  background-color: white;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.table {
+  border: 1px solid #b0cbef;
+  border-width: 1px 0px 0px 1px;
+  font-size: 11pt;
+  font-family: Calibri;
+  font-weight: 100;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th {
+  font-weight: bold;
+  font-size: 14px;
+  border: 1px solid #9eb6ce;
+  border-width: 0px 1px 1px 0px;
+  padding: 7px;
+  height: 17px;
+}
+
+.table td {
+  border: 0px;
+  background-color: white;
+  padding: 0px 4px 0px 2px;
+  border: 1px solid #d0d7e5;
+  border-width: 0px 1px 1px 0px;
+  padding: 7px;
+
+}
+
+.table td b {
+  border: 0px;
+  background-color: white;
+  font-weight: bold;
+  padding: 7px;
+
+}
+#page-size{
+  margin: 10px;
+  margin-left: 25px;
+}
+.table td.heading {
+  background-color: 	#65967b;
+  text-align: center;
+  border: 1px solid black;
+  border-width: 0px 1px 1px 0px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 7px;
+
+}
+.errors{
+  color: red;
+  border: 1px solid black;
+  padding: 8px;
+}
+.table th.heading {
+  background-repeat: none;
+  padding: 5px;
+
+}
+
+.ag-theme-alpine{
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.pdf{
+  margin-top: 40px;
+ 
+}
+
+.btn-head{
+  padding: 10px;
+  border-radius: 3px;
+  background-color: rgb(0, 195, 255);
+  color: black;
+  cursor: pointer;
+  border: none;
+  margin-right: 5px;
+}
+.page {
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+.btn-page{
+  padding: 10px;
+  border-radius: 3px;
+  background-color: rgb(0, 195, 255);
+  color: black;
+  cursor: pointer;
+  border: none;
+  margin-right: 5px;
+  margin-left: 8px;
+  width: 7%;
+  margin-top: 9px;
+}
+.btn-page-disabled{
+  padding: 10px;
+  border-radius: 3px;
+  color: black;
+  cursor: pointer;
+  border: none;
+  margin-right: 5px;
+  margin-left: 8px;
+  width: 7%;
+  margin-top: 9px;
+}
+.pagesize{
+  margin-top: 5px;
+}
+.pagetext{
+  margin-left: 25px;
+}
+
+.dropbtn-del {
+  border-radius: 4px;
+  background-color: rgb(77, 179, 226);
+  color: white ;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: 25px;
+margin-left: 25px;
+margin-bottom: 10px;
+}
+.dropbtn-filter {
+  border-radius: 4px;
+  background-color: rgb(77, 179, 226);
+  color: white ;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: 25px;
+margin-left: 1355px;
+margin-bottom: 10px;
+}
+.dropbtn-dots {
+  border-radius: 4px;
+  background-color: rgb(77, 179, 226);
+  color: white ;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-content-dots {
+  display: none;
+  position: absolute;
+  background-color: rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.dropdown-content-dots a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content-dots a:hover {background-color: #ddd}
+
+.dropdown-dots:hover .dropdown-content-dots {
+  display: inline-block;
+}
+.actions-button-cell { 
+  overflow:visible; 
+}
+.dropbtn-dot-pop {
+  color: black;
+  border: none;
+}
+.dot-pops{
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+
+.over-pop{
+  z-index: 9999;
+  transition-duration: 350ms;
+  visibility: visible;
+  top: 0px;
+  left: 0px;
+}
+.dropdown-dot-pop {
+  margin-bottom: 50px;
+  overflow: visible;position:absolute; top:0; left:0;
+  z-index: 1;
+ 
+}
+
+.dropdown-content-dot-pop {
+  display: block;   
+  background-color: #ddd;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+margin-left: 25px;
+overflow: visible;position:absolute; 
+margin: 20px;
+padding-right: 10px;
+width: max-content;
+}
+
+.dropdown-content-dot-pop a {
+  color: black;
+  position: relative;
+  padding: 5px;
+  margin-left: 5px;
+  display: block;
+  z-index: 2;
+}
+.cell-pop{
+  margin-left: 3px;
+  padding: 10px;
+  cursor: pointer;
+ position: absolute;
+}
+
+.dropdown-content-dot-pop a:hover {background-color: #f1f1f1;
+  overflow: visible;
+z-index: 2;}
+
+ 
+  .dropdown-dot-pop:hover .dropdown-content-dot-pop {display:inline-block ;
+  z-index: 1; }
+  
+.page{
+  margin-top: 15px;
+  z-index: 1;
+}
+
+.cell-fail {
+  text-align: left;
+  font-weight: bold;
+  color:#f44336 ;
+}
+
+.cell-progress {
+  text-align: left;
+  font-weight: bold;
+  color:#45a347 ;
+}
+.cell-pass {
+  text-align: left;
+  font-weight: bold;
+  color:rgb(96, 151, 223) ;
+}
+.color-select{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.color-option{
+  font-size: 16px;
+  margin: 2px;
+}
+
+.act-icon{
+  position: relative;
+  margin-left: 5px;
+}
+.dot-pops{
+  padding-top: 13px;
+  margin-left: 20px;
+
+  }
+  .over-pop{
+      position: relative;
+  }
+.tippy-pop{
+  z-index: 9999;
+  transition-duration: 0ms;
+  position: absolute;
+  visibility: visible;
+  top: 0px;
+  left: 0px;
+  transform: translate3d(1726px, 104px, 10px);
+  display: inline-block;
+  
+
+
+}
+
+/*
+  top: 0px;
+  left: 0px;
+  transform: translate3d(1726px, 304px, 0px);
+  */
